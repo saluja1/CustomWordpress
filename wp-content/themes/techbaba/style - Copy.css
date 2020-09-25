@@ -1021,7 +1021,6 @@ canvas {
 	background: #000000;
 	height: 100vh;
 	width: 100vw;
-	/*left: -120%;*/
 }
 .headingText,.headingCup {
 	position: absolute;
@@ -1083,7 +1082,7 @@ a.active {
 	background: #e34234;
 	height: 100vh;
 	width: 100vw;
-	left: -120%;
+	left: -100%;
 }
 .about #mainpage {
 	left: -2000px;
@@ -1094,7 +1093,7 @@ a.active {
 	background: #062d63;
 	height: 100vh;
 	width: 100vw;
-	left: -120%;
+	left: -100%;
 }
 .contact #mainpage {
 	left: -2000px;
@@ -1105,86 +1104,5 @@ a.active {
 }
 
 #inquiry {
-	background: #ffffff;
-	position: absolute;
-	width: 100%;
-	top: 100vh;
-	text-align: center;
-	height: 100vh;
-    transition: all 250ms ease-in;
-    -webkit-transition: all 250ms ease-in;
-    -moz-transition: all 250ms ease-in;
-    -o-transition: all 250ms ease-in;
-}
-#inquiry #mainpage {
-	max-width: 600px;
-	position: relative;
-	float: left;
-}
-#inquiry input, #inquiry textarea {
-	border: 0;
-    border-bottom: 1px solid;
-}
-#inquiry form p:nth-child(2), #inquiry form p:nth-child(3) {
-	float: left;
-	display: inline-block;
-    width: 49%;			
-}
-#inquiry form p input {
-    width: 90%			
-}
-#inquiry form p textarea {
-    width: 93%;
-    height: 120px			
-}
-input[type="submit"] {
-  display: inline-block;
-  width: auto;
-  max-width: 150px;
-  background-color: #000;
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 16px;
-  line-height: 24px;
-  padding: 8px 16px;
-  border: none;
-  cursor: pointer;
-}
-.overlayInquiry {
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	left: 0;
-	z-index: 1;
-    opacity: 0.8;
-    background: #fff;
-	transition: all 250ms ease-in;
-	-webkit-transition: all 250ms ease-in;
-	-moz-transition: all 250ms ease-in;
-	-o-transition: all 250ms ease-in;
-
-}
-#inquiry #mainpage:hover .overlayInquiry{
-	width: 0;
-	transition: all 250ms ease-in;
-	-webkit-transition: all 250ms ease-in;
-	-moz-transition: all 250ms ease-in;
-	-o-transition: all 250ms ease-in;			
-}
-.inquiryContent {
-	display: grid;
-	grid-template-columns: repeat(2, minmax(400px, 1fr));
-	align-items: center;
-	height: 100vh;		
-	padding: 70px;
-	/*background: #000;	*/
-}
-#mainpageinquirySidebar {
-	max-width: 600px;
-	width: 100%;
-}
-#mainpageinquirySidebar svg {
-	height: 200px;
-	width: 200px;
+	/*display: none;*/
 }
